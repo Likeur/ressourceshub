@@ -30,15 +30,101 @@
   </div>
 </section>
 <!-- filter Options  -->
-<section class="card variant-mixed sz-md mt-4 shadow-lg">
-  <div>
-    <h3>Categories</h3>
+<section class="card variant-mixed sz-md mt-4 shadow-lg flex flex-col lg:flex-row gap-5">
+  <div class="lg:w-[25vw]">
+    <h3 class="text-title text-xl font-semibold">Categories</h3>
+    <p class="text-body mt-2 text-balance">
+        Choose which categorie you want to display and start learning today
+    </p>
   </div>
 
-  <ul>
-    <li>
-      <input type="checkbox" name="" id="all" />
-      <label for="all">See All</label>
-    </li>
-  </ul>
+  <form action="">
+    <ul class="grid lg:grid-cols-4 gap-2">
+        <li>
+            <div class="field">
+                <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
+                    <label for="c1" class="checkbox group">
+                        <input checked class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                        <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
+                    </label>
+                    <label for="c1" class="block text-title select-none">See All</label>
+                    
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="field">
+                <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
+                    <label for="c1" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                        <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
+                    </label>
+                    <label for="c1" class="block text-title select-none">Frontend</label>
+                    
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="field">
+                <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
+                    <label for="c1" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                        <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
+                    </label>
+                    <label for="c1" class="block text-title select-none">Backend</label>
+                    
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="field">
+                <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
+                    <label for="c1" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                        <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
+                    </label>
+                    <label for="c1" class="block text-title select-none">Graphique design</label>
+                    
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="field">
+                <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
+                    <label for="c1" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                        <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
+                    </label>
+                    <label for="c1" class="block text-title select-none">Brand design</label>
+                    
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="field">
+                <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
+                    <label for="c1" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                        <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
+                    </label>
+                    <label for="c1" class="block text-title select-none">IA & ML</label>
+                    
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="field">
+                <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
+                    <label for="c1" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                        <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
+                    </label>
+                    <label for="c1" class="block text-title select-none">Utilities</label>
+                    
+                </div>
+            </div>
+        </li>
+      </ul>
+  </form>
+  
 </section>
