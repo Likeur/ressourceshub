@@ -1,3 +1,5 @@
+
+
 <section class="flex items-center justify-between p-4 mt-4">
   <a href="">
     <h1 class="lg:text-2xl">
@@ -6,7 +8,7 @@
   </a>
 
   <div>
-    <button class="btn variant-neutral sz-md flex items-center gap-2">
+    <button (click)="toggleCategories()" class="btn variant-neutral sz-md flex items-center gap-2">
       <span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +31,10 @@
     </button>
   </div>
 </section>
+
+
 <!-- filter Options  -->
-<section class="card variant-mixed sz-md mt-4 shadow-lg flex flex-col lg:flex-row gap-5">
+<section class="card variant-mixed scale-0 origin-top absolute sz-md mt-4 shadow-lg flex flex-col lg:flex-row gap-5">
   <div class="lg:w-[25vw]">
     <h3 class="text-title text-xl font-semibold">Categories</h3>
     <p class="text-body mt-2 text-balance">
@@ -55,11 +59,11 @@
         <li>
             <div class="field">
                 <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
-                    <label for="c1" class="checkbox group">
-                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                    <label for="c2" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c2" name="checkbox2"  />
                         <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
                     </label>
-                    <label for="c1" class="block text-title select-none">Frontend</label>
+                    <label for="c2" class="block text-title select-none">Frontend</label>
                     
                 </div>
             </div>
@@ -67,11 +71,11 @@
         <li>
             <div class="field">
                 <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
-                    <label for="c1" class="checkbox group">
-                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                    <label for="c3" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c3" name="checkbox3"  />
                         <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
                     </label>
-                    <label for="c1" class="block text-title select-none">Backend</label>
+                    <label for="c3" class="block text-title select-none">Backend</label>
                     
                 </div>
             </div>
@@ -79,11 +83,11 @@
         <li>
             <div class="field">
                 <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
-                    <label for="c1" class="checkbox group">
-                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                    <label for="c4" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c4" name="checkbox4"  />
                         <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
                     </label>
-                    <label for="c1" class="block text-title select-none">Graphique design</label>
+                    <label for="c4" class="block text-title select-none">Graphique design</label>
                     
                 </div>
             </div>
@@ -91,11 +95,11 @@
         <li>
             <div class="field">
                 <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
-                    <label for="c1" class="checkbox group">
-                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                    <label for="c5" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c5" name="checkbox5"  />
                         <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
                     </label>
-                    <label for="c1" class="block text-title select-none">Brand design</label>
+                    <label for="c5" class="block text-title select-none">Brand design</label>
                     
                 </div>
             </div>
@@ -103,11 +107,11 @@
         <li>
             <div class="field">
                 <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
-                    <label for="c1" class="checkbox group">
-                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                    <label for="c6" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c6" name="checkbox6"  />
                         <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
                     </label>
-                    <label for="c1" class="block text-title select-none">IA & ML</label>
+                    <label for="c6" class="block text-title select-none">IA & ML</label>
                     
                 </div>
             </div>
@@ -115,11 +119,11 @@
         <li>
             <div class="field">
                 <div class="grid items-center gap-x-3 gap-y-1 [grid-template-columns:auto_1fr]">
-                    <label for="c1" class="checkbox group">
-                        <input class="peer" type="checkbox" id="c1" name="checkbox1"  />
+                    <label for="c7" class="checkbox group">
+                        <input class="peer" type="checkbox" id="c7" name="checkbox7"  />
                         <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="pointer-events: none;"><path d="M20 6 9 17l-5-5"></path></svg>
                     </label>
-                    <label for="c1" class="block text-title select-none">Utilities</label>
+                    <label for="c7" class="block text-title select-none">Utilities</label>
                     
                 </div>
             </div>
