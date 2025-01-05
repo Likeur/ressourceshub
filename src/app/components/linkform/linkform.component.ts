@@ -4,8 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-linkform',
   imports: [],
   templateUrl: './linkform.component.html',
-  styles: ``
 })
-export class LinkformComponent {
+export default class LinkformComponent {
 
 }

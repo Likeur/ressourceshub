@@ -7,6 +7,11 @@ export const routes: Routes = [
         loadComponent: () =>import('./layout/homepage/homepage.component')
     },
     {
+        path:'linkform',
+        title: 'submit a link',
+        loadComponent: () =>import('./components/linkform/linkform.component')
+    },
+    {
         path:'',
         redirectTo:'home',
         pathMatch:'full'

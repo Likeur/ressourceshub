@@ -6,7 +6,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-homepage',
-  imports: [RouterModule, NavbarComponent, RessourceListComponent, FooterComponent],
+  imports: [RouterModule, RessourceListComponent],
   templateUrl: './homepage.component.html',
 })
 export default class HomepageComponent {
